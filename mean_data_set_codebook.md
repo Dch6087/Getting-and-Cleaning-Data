@@ -10,36 +10,34 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
+	tBodyAcc-XYZ
+	tGravityAcc-XYZ
+	tBodyAccJerk-XYZ
+	tBodyGyro-XYZ
+	tBodyGyroJerk-XYZ
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
+	fBodyAcc-XYZ
+	fBodyAccJerk-XYZ
+	fBodyGyro-XYZ
+	fBodyAccMag
+	fBodyAccJerkMag
+	fBodyGyroMag
+	fBodyGyroJerkMag
+	
 The set of variables that were estimated from these signals are: 
-
-mean(): Mean value
-std(): Standard deviation
+	
+	mean(): Mean value
+	std(): Standard deviation
 -----------------------------------------------------------------------------------------------------------------
-
 
 Description of the final data set : 180 obs. of 69 variables
 
 activity_label : label of the activity (chr)
 	WALKING
-
 	WALKING_UPSTAIRS
 	WALKING_DOWNSTAIRS
 	SITTING
@@ -51,16 +49,11 @@ subject : subject who realize the experiment (int)
 
 activity_code : initial code of the activity (num)
 	1 WALKING
-
 	2 WALKING_UPSTAIRS
-	
-3 WALKING_DOWNSTAIRS
-	
-4 SITTING
-	
-5 STANDING
-	
-6 LAYING
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
 
 66 numeric variables : mean by subject and by activity of some of the experiments variables (num)
        
