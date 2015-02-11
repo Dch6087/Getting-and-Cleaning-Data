@@ -4,6 +4,7 @@ run_analysis <-function()  {
         library(data.table)
         
         #0 import all raw data
+        # the raw data has to be stored in a folder "C_Assignment" into your working directory
         DT_X_train <- data.table(read.table("C_Assignment/train/X_train.txt"))
         DT_X_test <- data.table(read.table("C_Assignment/test/X_test.txt"))
         
